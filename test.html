@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="my-nav margin">
+        <div class="second-nav-container">
+          <div>
+            <button class="open-main-window">
+              <div id="shapeToggle" class="back-btn hide arrow"></div>
+              <span class="second-nav__logo">Logo</span>
+            </button>
+
+            <button class="close-scene-window hide">
+              <div id="shapeToggle" class="back-btn arrow"></div>
+            </button>
+          </div>
+
+          <div>
+            <ul class="second-nav__list">
+              <li class="second-nav__item">
+                <button class="open-about-window second-nav__link">
+                  About us
+                </button>
+              </li>
+
+              <li class="second-nav__item">
+                <button class="open-contact-window second-nav__link">
+                  Contact Us
+                </button>
+              </li>
+
+              <li class="second-nav__item">
+                <button class="second-nav__link second-nav-btn">
+                  User info
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Drop Down List -->
+        <div class="second-blackout second-nav-drop-down-blackout">
+          <div class="container-xxl">
+            <div class="second-nav-drop-down">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <button
+                    class="drop-down-btn open-gallery-window drop-down__link nav-link mb-1"
+                  >
+                    My gallery
+                  </button>
+                </li>
+
+                <li class="nav-item">
+                  <button
+                    class="drop-down-btn open-profile-window drop-down__link nav-link mb-1"
+                  >
+                    Profile
+                  </button>
+                </li>
+
+                <li class="nav-item">
+                  <button
+                    class="drop-down-btn open-faq-window drop-down__link nav-link mb-1"
+                  >
+                    FAQ
+                  </button>
+                </li>
+
+                <li class="nav-item">
+                  <button class="drop-down-btn drop-down__link nav-link mb-1">
+                    Log out
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Content -->
+      <div class="main">
+        <!-- Blackout -->
+        <div class="blackout-white"></div>
+
+        <!-- Main Window -->
+        <div class="main-window">
+          <!-- Carousel -->
+          <div class="carousel swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="main-cont">
+                  <h1 class="carousel__title carousel__title-mobile h1">
+                    Black Kitchen
+                  </h1>
+
+                  <button
+                    class="open-scene-window kitchen-scene"
+                    data-scene="kitchen-black"
+                  >
+                    <picture>
+                      <source
+                        data-scene="kitchen-black"
+                        srcset="
+                          https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/main-black-mobile.jpg
+                        "
+                        media="(max-width: 912px)"
+                      />
+                      <img
+                        data-scene="kitchen-black"
+                        class="carousel__img kitchen-img"
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/kitchen-black/View1/Jpeg/Final.jpg"
+                        alt="kitchen-black"
+                      />
+                    </picture>
+                  </button>
+
+                  <div class="container-xxl">
+                    <h1 class="carousel__title h1">Black Kitchen</h1>
+                    <button
+                      class="carousel__btn carousel__btn-start kitchen-scene"
+                      data-scene="kitchen-black"
+                    >
+                      Get started
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="main-cont">
+                  <h1 class="carousel__title carousel__title-mobile h1">
+                    Red Kitchen
+                  </h1>
+
+                  <button
+                    class="open-scene-window kitchen-scene"
+                    data-scene="kitchen-red"
+                  >
+                    <picture>
+                      <source data-scene="kitchen-red"
+                      srcset="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/main-red-mobile.jpg
+                      media="(max-width: 912px)" />
+                      <img
+                        data-scene="kitchen-red"
+                        class="carousel__img kitchen-img"
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/kitchen-red/View1/Jpeg/Final.jpg"
+                        alt="kitchen-red"
+                      />
+                    </picture>
+                  </button>
+
+                  <div class="container-xxl">
+                    <h1 class="carousel__title h1">Red Kitchen</h1>
+                    <button
+                      class="carousel__btn carousel__btn-start kitchen-scene"
+                      data-scene="kitchen-red"
+                    >
+                      Get started
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="main-cont">
+                  <h1 class="carousel__title carousel__title-mobile h1">
+                    White Kitchen
+                  </h1>
+
+                  <button
+                    class="open-scene-window kitchen-scene"
+                    data-scene="kitchen-white"
+                  >
+                    <picture>
+                      <source data-scene="kitchen-white"
+                      srcset="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/main-white-mobile.jpg
+                      media="(max-width: 912px)" />
+                      <img
+                        data-scene="kitchen-white"
+                        class="carousel__img kitchen-img"
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/kitchen-white/View1/Jpeg/Final.jpg"
+                        alt="kitchen-gray"
+                      />
+                    </picture>
+                  </button>
+
+                  <div class="container-xxl">
+                    <h1 class="carousel__title h1">White Kitchen</h1>
+                    <button
+                      class="carousel__btn carousel__btn-start kitchen-scene"
+                      data-scene="kitchen-white"
+                    >
+                      Get started
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <!-- About Window -->
+        <div class="height-100 about-window padding-top hide">
+          <div class="about">
+            <div class="container-xxl">
+              <h2 class="about__title h2 mb-5">About us</h2>
+
+              <div class="about__section mb-4 d-flex flex-column">
+                <h4 class="about__section_title h4">
+                  Lorem ipsum dolor sit amet consectetur?
+                </h4>
+                <p class="about__section_desc">
+                  Lorem ipsum dolor sit amet consectetur. Eu placerat
+                  ullamcorper ac non et sem ut proin. Volutpat ut sit a ut.
+                  Etiam arcu accumsan lobortis facilisis et. Interdum pulvinar
+                  cursus aenean ac fusce neque. Dignissim eget egestas non
+                  tellus mollis pulvinar ultricies mus. Iaculis aliquet
+                  dignissim ut diam ut et. Nibh commodo mattis dui nulla est
+                  pharetra a dictumst faucibus. Integer id erat vitae lacinia
+                  orci cursus lorem vestibulum bibendum. At auctor neque morbi
+                  posuere. Et ac turpis placerat ultricies egestas consectetur.
+                  Sed pellentesque enim sit sagittis malesuada viverra
+                  pellentesque urna vulputate.
+                </p>
+              </div>
+
+              <div class="about__section mb-4 d-flex flex-column">
+                <h4 class="about__section_title h4">
+                  Lorem ipsum dolor sit amet consectetur?
+                </h4>
+                <p class="about__section_desc">
+                  Lorem ipsum dolor sit amet consectetur. Eu placerat
+                  ullamcorper ac non et sem ut proin. Volutpat ut sit a ut.
+                  Etiam arcu accumsan lobortis facilisis et. Interdum pulvinar
+                  cursus aenean ac fusce neque. Dignissim eget egestas non
+                  tellus mollis pulvinar ultricies mus. Iaculis aliquet
+                  dignissim ut diam ut et. Nibh commodo mattis dui nulla est
+                  pharetra a dictumst faucibus. Integer id erat vitae lacinia
+                  orci cursus lorem vestibulum bibendum. At auctor neque morbi
+                  posuere. Et ac turpis placerat ultricies egestas consectetur.
+                  Sed pellentesque enim sit sagittis malesuada viverra
+                  pellentesque urna vulputate.
+                </p>
+              </div>
+
+              <div class="about__section mb-4 d-flex flex-column">
+                <h4 class="about__section_title h4">
+                  Lorem ipsum dolor sit amet consectetur?
+                </h4>
+                <p class="about__section_desc">
+                  Lorem ipsum dolor sit amet consectetur. Eu placerat
+                  ullamcorper ac non et sem ut proin. Volutpat ut sit a ut.
+                  Etiam arcu accumsan lobortis facilisis et. Interdum pulvinar
+                  cursus aenean ac fusce neque. Dignissim eget egestas non
+                  tellus mollis pulvinar ultricies mus. Iaculis aliquet
+                  dignissim ut diam ut et. Nibh commodo mattis dui nulla est
+                  pharetra a dictumst faucibus. Integer id erat vitae lacinia
+                  orci cursus lorem vestibulum bibendum. At auctor neque morbi
+                  posuere. Et ac turpis placerat ultricies egestas consectetur.
+                  Sed pellentesque enim sit sagittis malesuada viverra
+                  pellentesque urna vulputate.
+                </p>
+              </div>
+
+              <div class="about__section mb-4 d-flex flex-column">
+                <h4 class="about__section_title h4">
+                  Lorem ipsum dolor sit amet consectetur?
+                </h4>
+                <p class="about__section_desc">
+                  Lorem ipsum dolor sit amet consectetur. Sed etiam egestas
+                  phasellus in gravida. Varius fermentum non accumsan duis
+                  tellus. Volutpat nunc donec leo odio in tellus integer.
+                  Habitant mauris diam et lectus at. Facilisis lacus dui magna
+                  ornare enim in massa. Porta lorem enim eu turpis viverra
+                  ultrices malesuada diam. Elementum tincidunt aliquet blandit
+                  convallis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Window -->
+        <div class="height-100 contact-window padding-top hide">
+          <!-- Contact -->
+          <div style="padding-top: 0px; padding-bottom: 0px" class="contact">
+            <div class="container-xxl">
+              <h2 class="contact__title h2 mb-5">Contacts us</h2>
+
+              <form class="contact__form">
+                <div class="contact__form_top d-flex flex-column mb-4">
+                  <label class="contact__form_label mb-2">Title</label>
+                  <input
+                    class="contact__form_input"
+                    type="text"
+                    placeholder="Title"
+                  />
+                </div>
+
+                <div class="contact__form_center d-flex flex-column mb-4">
+                  <label class="contact__form_label mb-2">Question</label>
+                  <textarea
+                    class="contact__form_textarea"
+                    cols="10"
+                    rows="10"
+                    placeholder="How can i..."
+                  ></textarea>
+                </div>
+
+                <div class="contact__form_center d-flex flex-column mb-5">
+                  <label class="contact__form_label mb-2">Contacts</label>
+                  <input
+                    class="contact__form_input"
+                    type="number"
+                    placeholder="+1"
+                  />
+                </div>
+
+                <div class="contact__form_bottom d-flex">
+                  <button class="contact__form_btn contact-form-send-btn">
+                    Send
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- Request is sent -->
+          <div class="request-blackout">
+            <div class="request">
+              <button class="request-close-btn ms-auto mb-auto">
+                <img
+                  src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Cancel.svg"
+                  alt="cansel"
+                />
+              </button>
+
+              <div class="request__cont d-flex flex-column align-items-center">
+                <h4 class="request__title h4 mb-4">Your request is sent</h4>
+                <button class="request__btn request-close-btn">Got it</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Window -->
+        <div class="height-100 gallery-window padding-top hide">
+          <div class="gallery">
+            <div class="container-xxl">
+              <h2 class="gallery__title h2 mb-4">My Gallery</h2>
+
+              <div class="gallery__grid">
+                <div class="gallery__item">
+                  <img
+                    class="gallery__img mb-2"
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/galarry1.jpg"
+                    alt="Bath"
+                  />
+
+                  <div class="gallery__cont">
+                    <h3 class="gallery__item_title mb-3">Bath</h3>
+
+                    <div class="gallery__desc d-flex flex-column">
+                      <span class="gallery__accessors">1x something</span>
+                      <span class="gallery__accessors">2x something</span>
+                      <span class="gallery__accessors"
+                        >1x something + light</span
+                      >
+                    </div>
+
+                    <button class="gallery__btn">Check out</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile Window -->
+        <div class="height-100 profile-window padding-top hide">
+          <div class="profile">
+            <div class="container-xxl">
+              <h2 class="profile__title h2 mb-5">Profile settings</h2>
+
+              <form class="profile__form">
+                <div class="profile__form_top d-flex flex-column mb-5">
+                  <label class="profile__form_label mb-2">Name</label>
+                  <input
+                    class="profile__form_input mb-4"
+                    type="text"
+                    placeholder="John"
+                  />
+
+                  <label class="profile__form_label mb-2">Email</label>
+                  <input
+                    class="profile__form_input"
+                    type="email"
+                    placeholder="fantom@gmail.com"
+                  />
+                </div>
+
+                <div class="profile__form_center d-flex flex-column mb-5">
+                  <label class="profile__form_label mb-2"
+                    >Change password</label
+                  >
+                  <input
+                    class="profile__form_input mb-4"
+                    type="text"
+                    placeholder="New password"
+                  />
+                  <input
+                    class="profile__form_input"
+                    type="text"
+                    placeholder="Confirm password"
+                  />
+                </div>
+
+                <div class="profile__form_bottom d-flex">
+                  <button class="profile__form_btn me-3 profile__form-cansel">
+                    Cansel
+                  </button>
+                  <button class="profile__form_btn profile__form-save">
+                    Save changes
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Window-->
+        <div class="height-100 faq-window padding-top hide">
+          <div class="faq">
+            <div class="container-xxl">
+              <h2 class="faq__title h2 mb-5">FAQ</h2>
+
+              <div class="faq__section mb-4 d-flex flex-column">
+                <h4 class="faq__section_title h4">
+                  Lorem ipsum dolor sit amet consectetur?
+                </h4>
+                <p class="faq__section_desc">
+                  Lorem ipsum dolor sit amet consectetur. Risus enim etiam
+                  viverra leo pretium. Rhoncus nunc integer consequat ac
+                  molestie id nibh ullamcorper diam. Sit eu in sagittis turpis
+                  ac proin dolor mauris amet.
+                </p>
+              </div>
+
+              <div class="faq__section mb-4 d-flex flex-column">
+                <h4 class="faq__section_title h4">
+                  Lorem ipsum dolor sit amet consectetur?
+                </h4>
+                <p class="faq__section_desc">
+                  Lorem ipsum dolor sit amet consectetur. Odio sed velit lorem
+                  et. Risus in diam sed pellentesque non ut placerat massa. Nunc
+                  donec diam phasellus in pulvinar facilisis cras. Hac commodo
+                  quisque dignissim nascetur rhoncus ac habitant diam. Augue
+                  scelerisque consequat fusce cum.
+                </p>
+              </div>
+
+              <div class="faq__section mb-4 d-flex flex-column">
+                <h4 class="faq__section_title h4">
+                  Lorem ipsum dolor sit amet consectetur?
+                </h4>
+                <p class="faq__section_desc">
+                  Lorem ipsum dolor sit amet consectetur. Ut et urna a amet at
+                  mattis odio. Nec non ultricies velit donec libero viverra
+                  urna.
+                </p>
+              </div>
+
+              <div class="faq__section mb-4 d-flex flex-column">
+                <h4 class="faq__section_title h4">
+                  Lorem ipsum dolor sit amet consectetur?
+                </h4>
+                <p class="faq__section_desc">
+                  Lorem ipsum dolor sit amet consectetur. Sed etiam egestas
+                  phasellus in gravida. Varius fermentum non accumsan duis
+                  tellus. Volutpat nunc donec leo odio in tellus integer.
+                  Habitant mauris diam et lectus at. Facilisis lacus dui magna
+                  ornare enim in massa. Porta lorem enim eu turpis viverra
+                  ultrices malesuada diam. Elementum tincidunt aliquet blandit
+                  convallis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Loading Modal -->
+        <div id="loadingModal" class="loading-modal" style="display: none">
+          <div class="loader"></div>
+        </div>
+
+        <!-- Scene Window -->
+        <div class="scene-window hide">
+          <div class="scene">
+            <!-- Camera View -->
+            <div class="camera-view">
+              <button class="camera__item d-flex flex-column" data-view="View1">
+                <img
+                  data-view="View1"
+                  class="camera__item_img view1"
+                  src=""
+                  alt=""
+                />
+                <span class="camera__item_txt">View 1</span>
+              </button>
+
+              <button class="camera__item d-flex flex-column" data-view="View2">
+                <img
+                  data-view="View2"
+                  class="camera__item_img view2"
+                  src=""
+                  alt=""
+                />
+                <span class="camera__item_txt">View 2</span>
+              </button>
+
+              <button class="camera__item d-flex flex-column" data-view="View3">
+                <img
+                  data-view="View3"
+                  class="camera__item_img view3"
+                  src=""
+                  alt=""
+                />
+                <span class="camera__item_txt">View 3</span>
+              </button>
+            </div>
+
+            <!-- Scene Image / Masks / Objects -->
+            <div class="view-scene">
+              <!-- Popup Notify -->
+              <div class="popup-blackout">
+                <div class="popup">
+                  <button class="close-popup">
+                    <img
+                      src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Cancel.svg"
+                      alt=""
+                    />
+                  </button>
+
+                  <span class="popup-txt">Swipe to move</span>
+                  <img
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Swipe-Icon.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <!-- Panzoom / Scene images -->
+              <div class="my-cont">
+                <div class="f-panzoom">
+                  <div class="f-panzoom__content" id="myPanzoom">
+                    <!-- Backogrund img -->
+                    <img
+                      usemap="#image-map"
+                      id="scene-img"
+                      class="loading-jpg scene__bg"
+                      src=""
+                    />
+
+                    <!-- Foreground -->
+                    <img
+                      class="loading-jpg foreground foreground-black"
+                      src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/kitchen-black/View1/Png/Foreground.png"
+                      alt=""
+                    />
+                    <img
+                      id="foreground-black-view2"
+                      class="loading-jpg foreground foreground-black-view2"
+                      src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/kitchen-black/View2/Png/Foreground.png"
+                      alt=""
+                    />
+                    <img
+                      class="loading-jpg foreground foreground-red"
+                      src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/kitchen-red/View1/Png/Table.png"
+                      alt=""
+                    />
+                    <img
+                      class="loading-jpg foreground foreground-red-view2"
+                      src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/kitchen-red/View2/Png/Table.png"
+                      alt=""
+                    />
+
+                    <!-- Object Images -->
+                    <div class="object__images">
+                      <!-- Floor -->
+                      <div class="portuquets">
+                        <img
+                          class="loading-jpg portuquet-img"
+                          src=""
+                          data-object="parquet1"
+                          data-product="Parquet 1"
+                          data-price="100"
+                          data-remove="floor"
+                          alt=""
+                        />
+                        <img
+                          class="loading-jpg portuquet-img"
+                          src=""
+                          data-object="parquet2"
+                          data-product="Parquet 2"
+                          data-price="200"
+                          data-remove="floor"
+                          alt=""
+                        />
+                        <img
+                          class="loading-jpg portuquet-img"
+                          src=""
+                          data-object="parquet3"
+                          data-product="Parquet 3"
+                          data-price="300"
+                          data-remove="floor"
+                          alt=""
+                        />
+                        <img
+                          class="loading-jpg portuquet-img"
+                          src=""
+                          data-object="parquet4"
+                          data-product="Parquet 4"
+                          data-price="400"
+                          data-remove="floor"
+                          alt=""
+                        />
+                        <img
+                          class="loading-jpg portuquet-img"
+                          src=""
+                          data-object="parquet5"
+                          data-product="Parquet 5"
+                          data-price="500"
+                          data-remove="floor"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Wall Patterns -->
+                      <div class="fartuks">
+                        <img
+                          class="loading-jpg fartuk-img"
+                          data-object="fartuk1"
+                          data-product="Fartuk 1"
+                          data-remove="wall-pattern"
+                          data-price="100"
+                          src=""
+                          alt="Fartuk"
+                        />
+
+                        <img
+                          class="loading-jpg fartuk-img"
+                          data-object="fartuk2"
+                          data-product="Fartuk 2"
+                          data-remove="wall-pattern"
+                          data-price="200"
+                          src=""
+                          alt="Fartuk"
+                        />
+
+                        <img
+                          class="loading-jpg fartuk-img"
+                          data-object="fartuk3"
+                          data-product="Fartuk 3"
+                          data-remove="wall-patternor"
+                          data-price="300"
+                          src=""
+                          alt="Fartuk"
+                        />
+                      </div>
+
+                      <!-- Chairs -->
+                      <div class="bar-stools">
+                        <img
+                          class="loading-jpg bar-stool-img"
+                          data-price="100"
+                          data-product="BarStool1"
+                          data-object="BarStool1"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                        <img
+                          class="loading-jpg bar-stool-img"
+                          data-price="200"
+                          data-product="BarStool2"
+                          data-object="BarStool2"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                        <img
+                          class="loading-jpg bar-stool-img"
+                          data-price="300"
+                          data-product="BarStool3"
+                          data-object="BarStool3"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                        <img
+                          class="loading-jpg bar-stool-img"
+                          data-price="400"
+                          data-product="BarStool4"
+                          data-object="BarStool4"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                        <img
+                          class="loading-jpg bar-stool-img"
+                          data-price="500"
+                          data-product="BarStool5"
+                          data-object="BarStool5"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                        <img
+                          class="loading-jpg bar-stool-img"
+                          data-price="300"
+                          data-product="BarStool6"
+                          data-object="BarStool6"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                      </div>
+
+                      <!-- Lamps -->
+                      <div class="lamps">
+                        <img
+                          class="loading-jpg lamp-img"
+                          data-price="100"
+                          data-product="lamp1"
+                          data-object="Lamp1"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                        <img
+                          class="loading-jpg lamp-img"
+                          data-price="200"
+                          data-product="lamp2"
+                          data-object="Lamp2"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                        <img
+                          class="loading-jpg lamp-img"
+                          data-price="300"
+                          data-product="lamp3"
+                          data-object="Lamp3"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                        <img
+                          class="loading-jpg lamp-img"
+                          data-price="400"
+                          data-product="lamp4"
+                          data-object="Lamp4"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                        <!-- kitchen-white-lamp -->
+                        <img
+                          class="loading-jpg lamp-img"
+                          data-price="500"
+                          data-product="Lamp5"
+                          data-object="Lamp5"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                        <!-- kitchen-red-lamp -->
+                        <img
+                          class="loading-jpg lamp-img"
+                          data-price="600"
+                          data-product="Lamp6"
+                          data-object="Lamp6"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                      </div>
+                    </div>
+
+                    <!-- Masks -->
+                    <div class="masks-container">
+                      <!-- Kithcen Black -->
+                      <div
+                        id="kitchen-black-masks"
+                        class="kitchen-mask kitchen-black-masks"
+                      >
+                        <!-- View 1 -->
+                        <div class="kitchen-view1 active">
+                          <div
+                            class="mask_btn kitchen-black-view1-wall"
+                            data-mask="wall-pattern"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-black-view1-chairs"
+                            data-mask="chairs"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-black-view1-floor1"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-black-view1-floor2"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-black-view1-lamps"
+                            data-mask="lamps"
+                          ></div>
+                        </div>
+
+                        <!-- View 2 -->
+                        <div class="kitchen-view2">
+                          <div
+                            class="mask_btn kitchen-black-view2-wall"
+                            data-mask="wall-pattern"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-black-view2-chairs"
+                            data-mask="chairs"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-black-view2-floor1"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-black-view2-floor2"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-black-view2-lamps"
+                            data-mask="lamps"
+                          ></div>
+                        </div>
+
+                        <!-- View 3 -->
+                        <div class="kitchen-view3">
+                          <div
+                            class="mask_btn kitchen-black-view3-wall"
+                            data-mask="wall-pattern"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-black-view3-chairs"
+                            data-mask="chairs"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-black-view3-lamps"
+                            data-mask="lamps"
+                          ></div>
+                        </div>
+                      </div>
+
+                      <!-- Kitchen Red -->
+                      <div
+                        id="kitchen-red-masks"
+                        class="kitchen-mask kitchen-red-masks"
+                      >
+                        <!-- View 1 -->
+                        <div class="kitchen-view1 active">
+                          <div
+                            class="mask_btn kitchen-red-view1-wall"
+                            data-mask="wall-pattern"
+                          ></div>
+                          >
+                          <div
+                            class="mask_btn kitchen-red-view1-floor1"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-red-view1-lamps"
+                            data-mask="lamps"
+                          ></div>
+                        </div>
+
+                        <!-- View 2 -->
+                        <div class="kitchen-view2">
+                          <div
+                            class="mask_btn kitchen-red-view2-wall"
+                            data-mask="wall-pattern"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-red-view2-lamps"
+                            data-mask="lamps"
+                          ></div>
+                        </div>
+
+                        <!-- View 3 -->
+                        <div class="kitchen-view3">
+                          <div
+                            class="mask_btn kitchen-red-view3-wall"
+                            data-mask="wall-pattern"
+                          ></div>
+                        </div>
+                      </div>
+
+                      <!-- Kitchen White -->
+                      <div
+                        id="kitchen-white-masks"
+                        class="kitchen-mask kitchen-white-masks"
+                      >
+                        <!-- View 1 -->
+                        <div class="kitchen-view1 active">
+                          <div
+                            class="mask_btn kitchen-white-view1-chairs"
+                            data-mask="chairs"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-white-view1-floor1"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-white-view1-floor2"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-white-view1-floor3"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-white-view1-floor4"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-white-view1-lamps"
+                            data-mask="lamps"
+                          ></div>
+                        </div>
+
+                        <!-- View 2 -->
+                        <div class="kitchen-view2">
+                          <div
+                            class="mask_btn kitchen-white-view2-floor1"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-white-view2-floor2"
+                            data-mask="floor"
+                          ></div>
+                        </div>
+
+                        <!-- View 3 -->
+                        <div class="kitchen-view3">
+                          <div
+                            class="mask_btn kitchen-white-view3-chairs"
+                            data-mask="chairs"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-white-view3-floor1"
+                            data-mask="floor"
+                          ></div>
+                          <div
+                            class="mask_btn kitchen-white-view3-floor2"
+                            data-mask="floor"
+                          ></div>
+                        </div>
+                      </div>
+
+                      <!-- Mask Wall panels -->
+                      <img
+                        class="mask mask-wall-panels"
+                        data-mask="wall-pattern"
+                        src=""
+                        alt="wall-panels"
+                      />
+                      <!-- Mask Chairs -->
+                      <img
+                        class="mask mask-chairs"
+                        data-mask="chairs"
+                        src=""
+                        alt="chairs"
+                      />
+                      <!-- Mask Floor -->
+                      <img
+                        class="mask mask-floor"
+                        data-mask="floor"
+                        src=""
+                        alt="floor"
+                      />
+                      <!-- Mask Lamps -->
+                      <img
+                        class="mask mask-lamps"
+                        data-mask="lamps"
+                        src=""
+                        alt="floor"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Order Menu -->
+                <div class="container-xxl">
+                  <div class="order__container">
+                    <div class="order__menu">
+                      <button class="move-up">
+                        <img
+                          src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/move-up.svg"
+                          alt="move-up"
+                        />
+                      </button>
+                      <span class="order__count ms-2">0 item</span>
+                      <button class="order__btn">Order</button>
+                    </div>
+
+                    <div class="order__list"></div>
+                  </div>
+
+                  <!-- Zoom in / Zoom out -->
+                  <div class="slidecontainer">
+                    <button class="zoom-btn" id="zoomOutButton">-</button>
+                    <button class="zoom-btn" id="zoomInButton">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Custom Menu -->
+            <div class="custom d-flex align-items-start">
+              <button class="custom-btn">
+                <img
+                  src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Pencil.svg"
+                  alt=""
+                />
+              </button>
+
+              <div class="custom__items">
+                <!-- Wall panels -->
+                <div id="wall-pattern" class="custom__block">
+                  <!-- Custom Item -->
+                  <div class="custom__item">
+                    <img
+                      class="custom__item_img"
+                      src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/kitchen-black/Detailed/Wall.jpg"
+                      alt="Wall panels"
+                    />
+                    <span class="custom__item_title">Wall panels</span>
+
+                    <button class="custom-item-btn" data-mask="wall-pattern">
+                      <img
+                        data-item="wall-pattern"
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/open-custom.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+
+                  <!-- Custom Drop List -->
+                  <div
+                    class="custom-drop-list"
+                    data-item="wall-pattern"
+                    data-mask="wall-pattern"
+                  >
+                    <button
+                      class="custom-item-remove"
+                      data-remove="wall-pattern"
+                    >
+                      Remove
+                    </button>
+
+                    <div class="drop-list-container">
+                      <button class="load-jpg object-fartuk-btn">
+                        <img
+                          class="custom__img custom-fartuk"
+                          data-object="fartuk1"
+                          data-remove="wall-pattern"
+                          src=""
+                          alt="Wall panels"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-fartuk-btn">
+                        <img
+                          class="custom__img custom-fartuk"
+                          data-object="fartuk2"
+                          data-remove="wall-pattern"
+                          src=""
+                          alt="Wall panels"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-fartuk-btn">
+                        <img
+                          class="custom__img custom-fartuk"
+                          data-object="fartuk3"
+                          data-remove="wall-pattern"
+                          src=""
+                          alt="Wall panels"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Floor covering -->
+                <div id="floor" class="custom__block">
+                  <!-- Custom Item -->
+                  <div class="custom__item">
+                    <img
+                      class="custom__item_img floor-custom-img"
+                      src=""
+                      alt=""
+                    />
+                    <span class="custom__item_title">Floor covering</span>
+
+                    <button class="custom-item-btn" data-mask="floor">
+                      <img
+                        data-item="floor"
+                        data-mask="floor"
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/open-custom.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+
+                  <!-- Custom Drop List -->
+                  <div
+                    class="custom-drop-list"
+                    data-item="floor"
+                    data-mask="floor"
+                  >
+                    <button class="custom-item-remove" data-remove="floor">
+                      Remove
+                    </button>
+
+                    <div class="drop-list-container">
+                      <button class="load-jpg object-parquet-btn">
+                        <img
+                          class="custom__img custom-parquet"
+                          data-object="parquet1"
+                          data-remove="floor"
+                          src=""
+                          alt="Floor"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-parquet-btn">
+                        <img
+                          class="custom__img custom-parquet"
+                          data-object="parquet2"
+                          data-remove="floor"
+                          src=""
+                          alt="Floor"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-parquet-btn">
+                        <img
+                          class="custom__img custom-parquet"
+                          data-object="parquet3"
+                          data-remove="floor"
+                          src=""
+                          alt="Floor"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-parquet-btn">
+                        <img
+                          class="custom__img custom-parquet"
+                          data-object="parquet4"
+                          data-remove="floor"
+                          src=""
+                          alt="Floor"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-parquet-btn">
+                        <img
+                          class="custom__img custom-parquet"
+                          data-object="parquet5"
+                          data-remove="floor"
+                          src=""
+                          alt="Floor"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Chairs -->
+                <div id="chair" class="custom__block">
+                  <!-- Custom Item -->
+                  <div class="custom__item">
+                    <img
+                      class="custom__item_img custom-chairs-img"
+                      src=""
+                      alt="Chairs"
+                    />
+                    <span class="custom__item_title">Chairs</span>
+
+                    <button class="custom-item-btn" data-mask="chairs">
+                      <img
+                        data-item="chairs"
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/open-custom.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+
+                  <!-- Objects -->
+                  <div
+                    class="custom-drop-list"
+                    data-item="chairs"
+                    data-mask="chairs"
+                  >
+                    <button class="custom-item-remove" data-remove="chairs">
+                      Remove
+                    </button>
+
+                    <div class="drop-list-container">
+                      <button class="load-jpg object-bar-stool-btn">
+                        <img
+                          class="load-jpg-img custom__img custom-chair"
+                          data-mask="chairs"
+                          data-object="BarStool1"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-bar-stool-btn">
+                        <img
+                          class="load-jpg-img custom__img custom-chair"
+                          data-mask="chairs"
+                          data-object="BarStool2"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-bar-stool-btn">
+                        <img
+                          class="load-jpg-img custom__img custom-chair"
+                          data-mask="chairs"
+                          data-object="BarStool3"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-bar-stool-btn">
+                        <img
+                          class="load-jpg-img custom__img custom-chair"
+                          data-mask="chairs"
+                          data-object="BarStool4"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-bar-stool-btn">
+                        <img
+                          class="load-jpg-img custom__img custom-chair"
+                          data-mask="chairs"
+                          data-object="BarStool5"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-bar-stool-btn">
+                        <img
+                          class="load-jpg-img custom__img custom-chair kitchen-white-chair"
+                          data-mask="chairs"
+                          data-object="BarStool6"
+                          data-remove="chairs"
+                          src=""
+                          alt="Chair"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Lamps -->
+                <div id="lamp" class="custom__block">
+                  <!-- Custom Item -->
+                  <div class="custom__item">
+                    <img
+                      class="custom__item_img custom-lamps-img"
+                      src=""
+                      alt=""
+                    />
+                    <span class="custom__item_title">Lamps</span>
+
+                    <button class="custom-item-btn" data-mask="lamps">
+                      <img
+                        data-item="lamps"
+                        data-mask="lamps"
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/open-custom.svg"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+
+                  <!-- Objects -->
+                  <div
+                    class="custom-drop-list"
+                    data-item="lamps"
+                    data-mask="lamps"
+                  >
+                    <button
+                      class="load-jpg-img custom-item-remove"
+                      data-remove="lamps"
+                    >
+                      Remove
+                    </button>
+
+                    <div class="drop-list-container">
+                      <button class="load-jpg object-lamp-btn">
+                        <img
+                          class="load-jpg-img custom__img custom-lamp"
+                          data-mask="lamps"
+                          data-object="Lamp1"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-lamp-btn">
+                        <img
+                          class="load-jpg-img custom__img custom-lamp"
+                          data-mask="lamps"
+                          data-object="Lamp2"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-lamp-btn">
+                        <img
+                          class="load-jpg-img custom__img custom-lamp"
+                          data-mask="lamps"
+                          data-object="Lamp3"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-lamp-btn">
+                        <img
+                          class="load-jpg-img custom__img custom-lamp"
+                          data-mask="lamps"
+                          data-object="Lamp4"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                      </button>
+
+                      <button
+                        class="load-jpg object-lamp-btn kitchen-white-lamp"
+                      >
+                        <img
+                          class="load-jpg-img custom__img custom-lamp"
+                          data-mask="lamps"
+                          data-object="Lamp5"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                      </button>
+
+                      <button class="load-jpg object-lamp-btn kitchen-red-lamp">
+                        <img
+                          class="load-jpg-img custom__img custom-lamp"
+                          data-mask="lamps"
+                          data-object="Lamp6"
+                          data-remove="lamps"
+                          src=""
+                          alt="Lamp"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Options Desktop -->
+            <div class="options">
+              <!-- Save -->
+              <button
+                class="options__btn options-btn-save position-relative"
+                data-tip="save"
+              >
+                <img
+                  data-tip="save"
+                  class="options__btn-img"
+                  src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Heart.svg"
+                  alt="Save"
+                />
+
+                <!-- Tip Save -->
+                <div data-tip="save" class="options__tip tip-save">
+                  <span>Save</span>
+                </div>
+              </button>
+
+              <!-- Camera View -->
+              <button
+                class="options__btn options-btn-3d position-relative"
+                data-tip="3d"
+              >
+                <img
+                  data-tip="3d"
+                  src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Rotation.svg"
+                  alt="3D View"
+                />
+
+                <!-- Tip 3D View -->
+                <div data-tip="3d" class="options__tip tip-3d">
+                  <span>Camera view</span>
+                </div>
+              </button>
+
+              <!-- Download -->
+              <button
+                class="options__btn options-btn-download position-relative"
+                data-tip="download"
+              >
+                <img
+                  data-tip="download"
+                  src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Download.svg"
+                  alt="Download"
+                />
+
+                <!-- Tip Download -->
+                <div data-tip="download" class="options__tip tip-download">
+                  <span>Download</span>
+                </div>
+              </button>
+
+              <!-- Download Modal -->
+              <div class="download-blackout" data-modal="download"></div>
+              <div class="download-modal">
+                <button class="download-modal__btn download-modal-png me-auto">
+                  PNG
+                </button>
+                <button class="download-modal__btn download-modal-jpg me-auto">
+                  PDF
+                </button>
+              </div>
+
+              <!-- Print -->
+              <button
+                class="options__btn options-btn-print position-relative"
+                data-tip="print"
+              >
+                <img
+                  data-tip="print"
+                  src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Printer.svg"
+                  alt="Print"
+                />
+
+                <!-- Tip Print -->
+                <div data-tip="print" class="options__tip tip-print">
+                  <span>Print</span>
+                </div>
+              </button>
+
+              <!-- Share -->
+              <button
+                class="options__btn options-btn-share position-relative"
+                data-tip="share"
+              >
+                <img
+                  data-tip="share"
+                  src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Share.svg"
+                  alt="Share"
+                />
+
+                <!-- Tip Share -->
+                <div data-tip="share" class="options__tip tip-share">
+                  <span>Share</span>
+                </div>
+              </button>
+            </div>
+
+            <!-- Options Mobile -->
+            <div class="options-container">
+              <div class="options-mobile">
+                <!-- Save -->
+                <button
+                  class="options__btn options-btn-save position-relative"
+                  data-tip="save"
+                >
+                  <img
+                    data-tip="save"
+                    class="options__btn-img"
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Heart.svg"
+                    alt="Save"
+                  />
+
+                  <!-- Tip Save -->
+                  <div data-tip="save" class="options__tip tip-save">
+                    <span>Save</span>
+                  </div>
+                </button>
+
+                <!-- Camera View -->
+                <button
+                  class="options__btn options-btn-3d position-relative"
+                  data-tip="3d"
+                >
+                  <img
+                    data-tip="3d"
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Rotation.svg"
+                    alt="3D View"
+                  />
+
+                  <!-- Tip 3D View -->
+                  <div data-tip="3d" class="options__tip tip-3d">
+                    <span>Camera view</span>
+                  </div>
+                </button>
+
+                <!-- Download -->
+                <button
+                  class="options__btn options-btn-download position-relative"
+                  data-tip="download"
+                >
+                  <img
+                    data-tip="download"
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Download.svg"
+                    alt="Download"
+                  />
+
+                  <!-- Tip Download -->
+                  <div data-tip="download" class="options__tip tip-download">
+                    <span>Download</span>
+                  </div>
+                </button>
+
+                <!-- Download Modal -->
+                <div class="download-blackout" data-modal="download"></div>
+                <div class="download-modal">
+                  <button
+                    class="download-modal__btn download-modal-png me-auto"
+                  >
+                    PNG
+                  </button>
+                  <button
+                    class="download-modal__btn download-modal-jpg me-auto"
+                  >
+                    PDF
+                  </button>
+                </div>
+
+                <!-- Print -->
+                <button
+                  class="options__btn options-btn-print position-relative"
+                  data-tip="print"
+                >
+                  <img
+                    data-tip="print"
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Printer.svg"
+                    alt="Print"
+                  />
+
+                  <!-- Tip Print -->
+                  <div data-tip="print" class="options__tip tip-print">
+                    <span>Print</span>
+                  </div>
+                </button>
+
+                <!-- Share -->
+                <button
+                  class="options__btn options-btn-share position-relative"
+                  data-tip="share"
+                >
+                  <img
+                    data-tip="share"
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Share.svg"
+                    alt="Share"
+                  />
+
+                  <!-- Tip Share -->
+                  <div data-tip="share" class="options__tip tip-share">
+                    <span>Share</span>
+                  </div>
+                </button>
+              </div>
+
+              <button class="open-options-btn">
+                <img
+                  src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/open-options-btn.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+
+            <!-- Saved Modal -->
+            <div class="saved-blackout" data-modal="saved">
+              <div class="saved-modal">
+                <button class="close-saved-modal ms-auto mb-4">
+                  <img
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Cancel.svg"
+                    alt="Cancel"
+                  />
+                </button>
+
+                <div class="saved-modal-container">
+                  <h4 class="saved-modal__items_title h4">
+                    Saved to My gallery
+                  </h4>
+
+                  <div class="saved-modal__items d-flex flex-column"></div>
+
+                  <div class="saved-modal__items d-flex flex-column">
+                    <div class="d-flex me-auto mt-2">
+                      <button class="check-out-saved-modal mb-2 me-3">
+                        Check out
+                      </button>
+                      <button class="close-saved-modal mb-2">Back</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Empty Modal -->
+              <div class="saved-modal-empty">
+                <button class="close-saved-modal ms-auto">
+                  <img
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Cancel.svg"
+                    alt="Cancel"
+                  />
+                </button>
+
+                <h4 class="saved-modal__items_title mt-3 h4">
+                  No products to save
+                </h4>
+                <button class="close-saved-modal mb-2">Back</button>
+              </div>
+            </div>
+
+            <!-- Share Modal -->
+            <div class="share-blackout" data-modal="share">
+              <div class="share-modal">
+                <button class="close-share-modal ms-auto">
+                  <img
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Cancel.svg"
+                    alt="Cancel"
+                  />
+                </button>
+
+                <h4 class="share-modal__items_title h4 mb-4">Share to</h4>
+
+                <div class="share-modal__items">
+                  <div
+                    class="share-modal__item d-flex flex-column align-items-center"
+                  >
+                    <a href="#!">
+                      <img
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Whatsapp.svg"
+                        alt="Whatsapp"
+                      />
+                    </a>
+
+                    <span class="share-modal__item_title mt-2">WhatsApp</span>
+                  </div>
+
+                  <div
+                    class="share-modal__item d-flex flex-column align-items-center"
+                  >
+                    <a href="#!">
+                      <img
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Facebook.svg"
+                        alt="Facbook"
+                      />
+                    </a>
+
+                    <span class="share-modal__item_title mt-2">Facebook</span>
+                  </div>
+
+                  <div
+                    class="share-modal__item d-flex flex-column align-items-center"
+                  >
+                    <a href="#!">
+                      <img
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/gmail-pr.svg"
+                        width="48px"
+                        heihgt="48px"
+                        alt="Email"
+                      />
+                    </a>
+
+                    <span class="share-modal__item_title mt-2">Email</span>
+                  </div>
+
+                  <div
+                    class="share-modal__item d-flex flex-column align-items-center"
+                  >
+                    <a href="#!">
+                      <img
+                        src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/link-pr.svg"
+                        width="40px"
+                        heihgt="40px"
+                        alt="Link"
+                      />
+                    </a>
+
+                    <span class="share-modal__item_title mt-2">Copy link</span>
+                  </div>
+                </div>
+
+                <button class="close-share-modal mb-2">Back</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat Modal-->
+        <div class="chat-modal container-xxl">
+          <img
+            class="open-chat-btn"
+            src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/open-chat.png"
+            alt="Open Chat"
+          />
+
+          <div class="chat-popup">
+            <form class="chat-popup__container">
+              <div
+                class="chat-popup__top d-flex justify-content-between align-items-center"
+              >
+                <div>
+                  <img
+                    class="chat-popup__img me-3"
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/chat-img.png"
+                    alt=""
+                  />
+                  <span class="chet-modal-text">Alice</span>
+                </div>
+
+                <button class="chat-popup-btn-close">
+                  <img
+                    class="chat-popup-btn"
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/chat-cancel.svg"
+                    alt=""
+                  />
+                </button>
+              </div>
+
+              <div class="chat-popup__messages">
+                <span class="chat-popup__message_txt mb-2"
+                  >Hello. How can I help you?</span
+                >
+              </div>
+
+              <div class="chat-popup__text">
+                <input
+                  class="chat-popup__text_input"
+                  type="text"
+                  placeholder="Message"
+                />
+
+                <button class="chat-popup-send-btn">
+                  <img
+                    class="chat-popup__text_icon"
+                    src="https://fantomstudio.uz/wp-content/themes/fantom/template-configurator/img/icons/Send.svg"
+                    alt="Send"
+                  />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sticky-js@1.3.1/src/sticky.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
